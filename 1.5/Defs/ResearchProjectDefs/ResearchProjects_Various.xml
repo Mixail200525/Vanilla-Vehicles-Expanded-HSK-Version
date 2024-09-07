@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ResearchProjectDef>
+    <defName>VVE_BasicVehicles</defName>
+    <label>basis of vehicles</label>
+    <description>Basic machine tools and spare parts for vehicles.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>BiofuelRefining</li>
+	  <li>Oil_Industry_C5</li>
+	  <li>MicroelectronicsBasics</li>
+	  <li>Metals_C1</li>
+    </prerequisites>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->Automotive Parts</li>
+    <li>subject_story->We have opened the era of new and convenient transportation</li>
+    <li>subject_story->It will be possible to forget about the old ways of moving</li>
+    <li>subject_story->We will be able to defend and attack better in the new era of the automotive industry</li>
+    <li>subject_gerund->inventing new ways to move</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_GarageDoors</defName>
+    <label>Garage doors</label>
+    <description>The garage doors are wide enough for the car to pass through.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+	<li>subject->Garage doors</li>
+    <li>subject_story->Creating gates to protect your vehicles</li>
+    <li>subject_gerund->Protect transport</li>
+	</rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>VVE_ComplexVehicles</defName>
+    <label>Cars l</label>
+    <description>simple cars that require a lot of fuel.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+	<rulesStrings>
+	<li>subject->first cars</li>
+    <li>subject_story->first cars for moving goods and passengers.</li>
+    <li>subject_story->They consume a lot of fuel and</li>
+    <li>subject_story->It is possible to travel long distances quickly</li>
+    <li>subject_gerund->We are creating the first wheeled transport</li>
+	</rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_AerialVehicles</defName>
+    <label>Cars ll</label>
+    <description>Improved cars that consume less fuel.</description>
+    <baseCost>2250</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->Improved cars</li>
+    <li>subject_story->They can load more cargo and passengers</li>
+    <li>subject_story->They consume less fuel</li>
+    <li>subject_story->Even faster movement</li>
+    <li>subject_gerund->Creating improved cars</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_Ship_C1</defName>
+    <label>Ship l</label>
+    <description>Simple ships that consume a lot of fuel.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->The first water transport</li>
+    <li>subject_story->Now we can conquer the water</li>
+    <li>subject_story->They consume a lot of fuel</li>
+    <li>subject_story->Fast travel without bypassing the water</li>
+    <li>subject_gerund->Water development</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_Ship_C2</defName>
+    <label>Ship ll</label>
+    <description>Improved ships that consume less fuel.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_Ship_C1</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->improved water transport</li>
+    <li>subject_story->Now we can conquer even more water</li>
+    <li>subject_story->Consume less fuel</li>
+    <li>subject_story->even faster journeys without bypassing the water</li>
+    <li>subject_gerund->improvement of ships</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_CombatVehicles</defName>
+    <label>Armored vehicles l</label>
+    <description>Simple armored vehicles.</description>
+    <baseCost>2250</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+	  <li>Machining</li>
+	  <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->war vehicles</li>
+    <li>subject_story->made powerful combat vehicles like tanks</li>
+    <li>subject_story->vehicles could now fight and defend in wars</li>
+    <li>subject_story->changed how battles are fought with these new machines</li>
+    <li>subject_gerund->building for battle</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_ArmoredVehicles_C2</defName>
+    <label>Armored vehicles ll</label>
+    <description>Improved armored vehicles.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+	  <li>Range_C2</li>
+	  <li>VVE_AerialVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->improved war vehicles</li>
+    <li>subject_story->creating new types of tanks</li>
+    <li>subject_story->New tanks mod is even better to fight on the battlefields</li>
+    <li>subject_gerund->It's even better to prepare for battle</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_AirVehicles_C1</defName>
+    <label>Air transport l</label>
+    <description>Simple air transport that consumes a lot of fuel.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->flying machines</li>
+    <li>subject_story->created helicopters and cargo planes to fly over obstacles</li>
+    <li>subject_story->opened up new ways to explore and trade</li>
+    <li>subject_story->made air travel possible, changing how we see the world</li>
+    <li>subject_gerund->taking to the skies</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_AirVehicles_C2</defName>
+    <label>Air transport ll</label>
+    <description>Improved air transport that consumes less fuel.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_AirVehicles_C1</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->improved flying machines</li>
+    <li>subject_story->New planes allow you to fly much further</li>
+    <li>subject_gerund->Flights are even higher</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_JetVehicles_C1</defName>
+    <label>Jet transport l</label>
+    <description>Reusable jet capsules that allow you to transport a large amount of cargo.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+	  <li>TransportPod</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->Very fast transport</li>
+    <li>subject_story->Transport capsules allow you to move very quickly through suborbital flight</li>
+    <li>subject_story->Unlike disposable capsules, we can fly many times</li>
+    <li>subject_gerund->Fly as much as you want</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_JetVehicles_C2</defName>
+    <label>Jet transport ll</label>
+    <description>Reusable jet capsules that allow you to transport a large amount of cargo.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+	<prerequisites>
+      <li>VVE_JetVehicles_C1</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->Very fast and heavy-duty transport</li>
+    <li>subject_story->Now we can take more cargo</li>
+    <li>subject_gerund->Years and faster and carry more</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+
+</Defs>

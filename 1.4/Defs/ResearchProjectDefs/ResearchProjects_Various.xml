@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ResearchProjectDef>
+    <defName>VVE_BasicVehicles</defName>
+    <label>basis of vehicles</label>
+    <description>Basic machine tools and spare parts for vehicles.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>BiofuelRefining</li>
+	  <li>Oil_Industry_C5</li>
+	  <li>MicroelectronicsBasics</li>
+	  <li>Metals_C1</li>
+    </prerequisites>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_GarageDoors</defName>
+    <label>Garage doors</label>
+    <description>The garage doors are wide enough for the car to pass through.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>VVE_ComplexVehicles</defName>
+    <label>Cars l</label>
+    <description>simple cars that require a lot of fuel.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_AerialVehicles</defName>
+    <label>Cars ll</label>
+    <description>Improved cars that consume less fuel.</description>
+    <baseCost>2250</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_Ship_C1</defName>
+    <label>Ship l</label>
+    <description>Simple ships that consume a lot of fuel.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_Ship_C2</defName>
+    <label>Ship ll</label>
+    <description>Improved ships that consume less fuel.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_Ship_C1</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_CombatVehicles</defName>
+    <label>Armored vehicles l</label>
+    <description>Simple armored vehicles.</description>
+    <baseCost>2250</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+	  <li>Machining</li>
+	  <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_ArmoredVehicles_C2</defName>
+    <label>Armored vehicles ll</label>
+    <description>Improved armored vehicles.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+	  <li>Range_C2</li>
+	  <li>VVE_AerialVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_AirVehicles_C1</defName>
+    <label>Air transport l</label>
+    <description>Simple air transport that consumes a lot of fuel.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_AirVehicles_C2</defName>
+    <label>Air transport ll</label>
+    <description>Improved air transport that consumes less fuel.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_AirVehicles_C1</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_JetVehicles_C1</defName>
+    <label>Jet transport l</label>
+    <description>Reusable jet capsules that allow you to transport a large amount of cargo.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+	<prerequisites>
+      <li>VVE_BasicVehicles</li>
+	  <li>TransportPod</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>VVE_JetVehicles_C2</defName>
+    <label>Jet transport ll</label>
+    <description>Reusable jet capsules that allow you to transport a large amount of cargo.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+	<prerequisites>
+      <li>VVE_JetVehicles_С1</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+
+</Defs>

@@ -38,20 +38,6 @@
     <thingCategories>
       <li>VVE_CarParts</li>
     </thingCategories>
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <effectWorking>Cook</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-	  <workSkill>Crafting</workSkill>
-      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-      <recipeUsers>
-        <li>VVE_GarageBench</li>
-      </recipeUsers>
-      <researchPrerequisite>VVE_BasicVehicles</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
   </ThingDef>
   
   <!-- all the costLists are placeholders for now -->
@@ -67,13 +53,7 @@
     <statBases>
       <MarketValue>325</MarketValue>
       <Mass>18</Mass>
-	  <WorkToMake>5000</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>40</Plasteel>
-      <Rubber>5</Rubber>
-      <ComponentIndustrial>8</ComponentIndustrial>
-    </costList>
     <tradeTags>
       <li>VVE_CarPartBasic</li>
     </tradeTags>
@@ -90,13 +70,7 @@
     <statBases>
       <MarketValue>95</MarketValue>
       <Mass>4</Mass>
-	  <WorkToMake>3000</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>10</Plasteel>
-	  <Wire>15</Wire>
-      <ComponentIndustrial>4</ComponentIndustrial>
-    </costList>
     <tradeTags>
       <li>VVE_CarPartBasic</li>
     </tradeTags>
@@ -113,12 +87,7 @@
     <statBases>
       <MarketValue>80</MarketValue>
       <Mass>7</Mass>
-	  <WorkToMake>1000</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>40</Plasteel>
-	  <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
     <tradeTags>
       <li>VVE_CarPartBasic</li>
     </tradeTags>
@@ -135,13 +104,7 @@
     <statBases>
       <MarketValue>90</MarketValue>
       <Mass>8</Mass>
-	  <WorkToMake>2000</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>20</Plasteel>
-      <Rubber>2</Rubber>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
     <tradeTags>
       <li>VVE_CarPartBasic</li>
     </tradeTags>
@@ -158,12 +121,7 @@
     <statBases>
       <MarketValue>70</MarketValue>
       <Mass>10</Mass>
-	  <WorkToMake>100</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>25</Plasteel>
-      <Rubber>10</Rubber>
-    </costList>
     <tradeTags>
       <li>VVE_CarPartBasic</li>
     </tradeTags>
@@ -180,16 +138,7 @@
     <statBases>
       <MarketValue>120</MarketValue>
       <Mass>8</Mass>
-	  <WorkToMake>5000</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>35</Plasteel>
-	  <LeadBar>10</LeadBar>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>Batteries</researchPrerequisite>
-    </recipeMaker>
     <tradeTags>
       <li>VVE_CarPartAdvanced</li>
     </tradeTags>
@@ -206,15 +155,7 @@
     <statBases>
       <MarketValue>95</MarketValue>
       <Mass>10</Mass>
-	  <WorkToMake>2000</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>30</Plasteel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>BiofuelRefining</researchPrerequisite>
-    </recipeMaker>
     <tradeTags>
       <li>VVE_CarPartAdvanced</li>
     </tradeTags>
@@ -231,15 +172,7 @@
     <statBases>
       <MarketValue>170</MarketValue>
       <Mass>7</Mass>
-	  <WorkToMake>4000</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>10</Plasteel>
-      <ComponentIndustrial>10</ComponentIndustrial>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
-    </recipeMaker>
     <tradeTags>
       <li>VVE_CarPartAdvanced</li>
     </tradeTags>
@@ -256,15 +189,7 @@
     <statBases>
       <MarketValue>90</MarketValue>
       <Mass>15</Mass>
-	  <WorkToMake>3000</WorkToMake>
     </statBases>
-    <costList>
-      <Plasteel>25</Plasteel>
-	  <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>AirConditioning</researchPrerequisite>
-    </recipeMaker>
     <tradeTags>
       <li>VVE_CarPartAdvanced</li>
     </tradeTags>
@@ -281,14 +206,7 @@
     <statBases>
       <MarketValue>125</MarketValue>
       <Mass>4</Mass>
-	  <WorkToMake>1000</WorkToMake>
-    </statBases>
-    <costList>
-      <Wire>20</Wire>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
-    </recipeMaker>
+	</statBases>
     <tradeTags>
       <li>VVE_CarPartAdvanced</li>
     </tradeTags>

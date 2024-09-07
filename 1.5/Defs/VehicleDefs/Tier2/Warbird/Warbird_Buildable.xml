@@ -22,11 +22,11 @@
 		<size>(5, 5)</size>
 		
 		<researchPrerequisites>
-			<li>VVE_CombatVehicles</li>
+			<li>VVE_AirVehicles_C2</li>
 		</researchPrerequisites>
 		
 		<costList>
-			<VVE_EngineBlock>2</VVE_EngineBlock>
+		<VVE_EngineBlock>2</VVE_EngineBlock>
 			<VVE_CarAlternator>2</VVE_CarAlternator>
 			<VVE_CarExhaust>4</VVE_CarExhaust>
 			<VVE_CarSuspension>3</VVE_CarSuspension>

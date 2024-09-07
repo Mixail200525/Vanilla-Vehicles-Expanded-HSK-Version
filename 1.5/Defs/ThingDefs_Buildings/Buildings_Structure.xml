@@ -64,7 +64,7 @@
 		<costStuffCount>100</costStuffCount>
 		<designationHotKey>Misc2</designationHotKey>
 		<researchPrerequisites>
-			<li>VVE_BasicVehicles</li>
+			<li>VVE_GarageDoors</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
@@ -138,7 +138,7 @@
 		<costStuffCount>100</costStuffCount>
 		<designationHotKey>Misc2</designationHotKey>
 		<researchPrerequisites>
-			<li>VVE_BasicVehicles</li>
+			<li>VVE_GarageDoors</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>

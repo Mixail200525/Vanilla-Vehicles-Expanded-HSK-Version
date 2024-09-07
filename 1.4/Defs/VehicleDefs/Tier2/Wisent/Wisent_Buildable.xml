@@ -22,7 +22,7 @@
 		<size>(3,6)</size>
 		
 		<researchPrerequisites>
-			<li>VVE_CombatVehicles</li>
+			<li>VVE_AerialVehicles</li>
 		</researchPrerequisites>
 		
 		<costList>
@@ -31,7 +31,7 @@
 			<VVE_CarExhaust>6</VVE_CarExhaust>
 			<VVE_CarSuspension>6</VVE_CarSuspension>
 			<VVE_CarWheel>6</VVE_CarWheel>
-			<Plasteel>360</Plasteel>
+			<Plasteel>500</Plasteel>
 			<ComponentIndustrial>40</ComponentIndustrial>
 			<ElectronicComponents>10</ElectronicComponents>
 			<VVE_CarFuelTank>2</VVE_CarFuelTank>

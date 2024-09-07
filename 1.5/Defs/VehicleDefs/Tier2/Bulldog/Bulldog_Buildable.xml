@@ -22,20 +22,22 @@
 		<size>(3, 5)</size>
 		
 		<researchPrerequisites>
-			<li>VVE_CombatVehicles</li>
+			<li>VVE_ArmoredVehicles_C2</li>
 		</researchPrerequisites>
 		
 		<costList>
-			<VVE_EngineBlock>1</VVE_EngineBlock>
-			<VVE_CarAlternator>2</VVE_CarAlternator>
-			<VVE_CarExhaust>4</VVE_CarExhaust>
-			<VVE_CarSuspension>10</VVE_CarSuspension>
-			<VVE_CarWheel>14</VVE_CarWheel>
-			<VVE_CarTransmission>1</VVE_CarTransmission>
-			<VVE_CarRadiator>2</VVE_CarRadiator>
-			<VVE_CarFuelTank>2</VVE_CarFuelTank>
-			<Plasteel>440</Plasteel>
-			<ComponentIndustrial>64</ComponentIndustrial>
+			<VVE_EngineBlock>2</VVE_EngineBlock>
+            <VVE_CarAlternator>2</VVE_CarAlternator>
+            <VVE_CarBattery>2</VVE_CarBattery>
+            <VVE_CarFuelTank>2</VVE_CarFuelTank>
+            <VVE_CarRadiator>2</VVE_CarRadiator>
+            <VVE_CarTransmission>8</VVE_CarTransmission>
+            <VVE_CarExhaust>12</VVE_CarExhaust>
+            <VVE_CarSuspension>10</VVE_CarSuspension>
+            <VVE_CarWheel>14</VVE_CarWheel>
+            <VVE_CarWiring>16</VVE_CarWiring>
+			<Plasteel>2500</Plasteel>
+			<ComponentIndustrial>80</ComponentIndustrial>
 			<ElectronicComponents>20</ElectronicComponents>
 		</costList>
 		

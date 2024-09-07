@@ -22,20 +22,23 @@
 		<size>(1,1)</size>
 		
 		<researchPrerequisites>
-			<li>VVE_ComplexVehicles</li>
+			<li>VVE_AerialVehicles</li>
 		</researchPrerequisites>
 		
 		<costList>
 			<VVE_EngineBlock>1</VVE_EngineBlock>
 			<VVE_CarAlternator>1</VVE_CarAlternator>
-			<VVE_CarExhaust>2</VVE_CarExhaust>
+			<VVE_CarExhaust>1</VVE_CarExhaust>
+			<VVE_CarBattery>1</VVE_CarBattery>
+			<VVE_CarFuelTank>1</VVE_CarFuelTank>
+			<VVE_CarTransmission>1</VVE_CarTransmission>
+			<VVE_CarWiring>2</VVE_CarWiring>
 			<VVE_CarSuspension>2</VVE_CarSuspension>
 			<VVE_CarWheel>2</VVE_CarWheel>
-			<VVE_CarFuelTank>1</VVE_CarFuelTank>
-			<Plasteel>80</Plasteel>
+			<Plasteel>140</Plasteel>
 			<GoldBar>30</GoldBar>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<ElectronicComponents>3</ElectronicComponents>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ElectronicComponents>5</ElectronicComponents>
 		</costList>
 		
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>

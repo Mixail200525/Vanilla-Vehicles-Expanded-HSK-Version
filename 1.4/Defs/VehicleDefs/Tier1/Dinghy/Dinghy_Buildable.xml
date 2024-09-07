@@ -22,14 +22,17 @@
 		<size>(2, 4)</size>
 		
 		<researchPrerequisites>
-			<li>VVE_BasicVehicles</li>
+			<li>VVE_Ship_C1</li>
 		</researchPrerequisites>
 		
 		<costList>
 			<VVE_EngineBlock>1</VVE_EngineBlock>
-			<Plasteel>20</Plasteel>
-			<WoodPlank>140</WoodPlank>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<VVE_CarFuelTank>1</VVE_CarFuelTank>
+			<VVE_CarWiring>1</VVE_CarWiring>
+			<VVE_CarExhaust>1</VVE_CarExhaust>
+			<Plasteel>80</Plasteel>
+			<WoodPlank>200</WoodPlank>
+			<ComponentIndustrial>15</ComponentIndustrial>
 		</costList>
 		
 		<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>

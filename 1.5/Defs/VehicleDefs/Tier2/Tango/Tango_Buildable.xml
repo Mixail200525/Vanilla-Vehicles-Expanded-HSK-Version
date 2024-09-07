@@ -26,17 +26,19 @@
 		</researchPrerequisites>
 		
 		<costList>
-			<VVE_EngineBlock>1</VVE_EngineBlock>
-			<VVE_CarAlternator>2</VVE_CarAlternator>
-			<VVE_CarExhaust>4</VVE_CarExhaust>
-			<VVE_CarSuspension>12</VVE_CarSuspension>
-			<VVE_CarWheel>14</VVE_CarWheel>
-			<VVE_CarTransmission>1</VVE_CarTransmission>
-			<VVE_CarRadiator>2</VVE_CarRadiator>
-			<VVE_CarFuelTank>2</VVE_CarFuelTank>
-			<Plasteel>380</Plasteel>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<ElectronicComponents>5</ElectronicComponents>
+				<VVE_EngineBlock>1</VVE_EngineBlock>
+            <VVE_CarAlternator>2</VVE_CarAlternator>
+            <VVE_CarBattery>2</VVE_CarBattery>
+            <VVE_CarFuelTank>2</VVE_CarFuelTank>
+            <VVE_CarRadiator>2</VVE_CarRadiator>
+            <VVE_CarTransmission>6</VVE_CarTransmission>
+            <VVE_CarExhaust>8</VVE_CarExhaust>
+            <VVE_CarSuspension>8</VVE_CarSuspension>
+            <VVE_CarWheel>14</VVE_CarWheel>
+            <VVE_CarWiring>12</VVE_CarWiring>
+			<Plasteel>1400</Plasteel>
+			<ComponentIndustrial>60</ComponentIndustrial>
+			<ElectronicComponents>12</ElectronicComponents>
 		</costList>
 		
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
